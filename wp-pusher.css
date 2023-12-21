@@ -320,6 +320,19 @@ span.span-1 {
     letter-spacing: -0.01px;
 }
 
+.span-2 {
+    position: relative;
+}
+
+.span-2::after {
+    width: 80px;
+    bottom: 0px;
+    left: 0;
+    position: absolute;
+    content: '';
+    border: 1px solid #646E7A;
+}
+
 .main-1 img {
     margin-left: 246px;
     margin-right: 242px;
